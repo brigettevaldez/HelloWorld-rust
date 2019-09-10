@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B862632327E8C40063A617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B862622327E8C40063A617 /* AppDelegate.swift */; };
+		48B862652327E8C40063A617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B862642327E8C40063A617 /* ViewController.swift */; };
+		48B862682327E8C40063A617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B862662327E8C40063A617 /* Main.storyboard */; };
+		48B8626A2327E8C50063A617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B862692327E8C50063A617 /* Assets.xcassets */; };
+		48B8626D2327E8C50063A617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B8626B2327E8C50063A617 /* LaunchScreen.storyboard */; };
+		48B862782327E8C50063A617 /* HelloRustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B862772327E8C50063A617 /* HelloRustTests.swift */; };
+		48B862832327E8C50063A617 /* HelloRustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B862822327E8C50063A617 /* HelloRustUITests.swift */; };
+		48B862922327E9B00063A617 /* librust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B862912327E9B00063A617 /* librust.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48B862742327E8C50063A617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B862572327E8C40063A617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B8625E2327E8C40063A617;
+			remoteInfo = HelloRust;
+		};
+		48B8627F2327E8C50063A617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B862572327E8C40063A617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B8625E2327E8C40063A617;
+			remoteInfo = HelloRust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B8625F2327E8C40063A617 /* HelloRust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B862622327E8C40063A617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48B862642327E8C40063A617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48B862672327E8C40063A617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48B862692327E8C50063A617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B8626C2327E8C50063A617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48B8626E2327E8C50063A617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B862732327E8C50063A617 /* HelloRustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B862772327E8C50063A617 /* HelloRustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRustTests.swift; sourceTree = "<group>"; };
+		48B862792327E8C50063A617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B8627E2327E8C50063A617 /* HelloRustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B862822327E8C50063A617 /* HelloRustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRustUITests.swift; sourceTree = "<group>"; };
+		48B862842327E8C50063A617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B862912327E9B00063A617 /* librust.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librust.a; path = libs/librust.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B8625C2327E8C40063A617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B862922327E9B00063A617 /* librust.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B862702327E8C50063A617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B8627B2327E8C50063A617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B862562327E8C40063A617 = {
+			isa = PBXGroup;
+			children = (
+				48B862612327E8C40063A617 /* HelloRust */,
+				48B862762327E8C50063A617 /* HelloRustTests */,
+				48B862812327E8C50063A617 /* HelloRustUITests */,
+				48B862602327E8C40063A617 /* Products */,
+				48B862902327E9AF0063A617 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48B862602327E8C40063A617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B8625F2327E8C40063A617 /* HelloRust.app */,
+				48B862732327E8C50063A617 /* HelloRustTests.xctest */,
+				48B8627E2327E8C50063A617 /* HelloRustUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B862612327E8C40063A617 /* HelloRust */ = {
+			isa = PBXGroup;
+			children = (
+				48B862622327E8C40063A617 /* AppDelegate.swift */,
+				48B862642327E8C40063A617 /* ViewController.swift */,
+				48B862662327E8C40063A617 /* Main.storyboard */,
+				48B862692327E8C50063A617 /* Assets.xcassets */,
+				48B8626B2327E8C50063A617 /* LaunchScreen.storyboard */,
+				48B8626E2327E8C50063A617 /* Info.plist */,
+			);
+			path = HelloRust;
+			sourceTree = "<group>";
+		};
+		48B862762327E8C50063A617 /* HelloRustTests */ = {
+			isa = PBXGroup;
+			children = (
+				48B862772327E8C50063A617 /* HelloRustTests.swift */,
+				48B862792327E8C50063A617 /* Info.plist */,
+			);
+			path = HelloRustTests;
+			sourceTree = "<group>";
+		};
+		48B862812327E8C50063A617 /* HelloRustUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48B862822327E8C50063A617 /* HelloRustUITests.swift */,
+				48B862842327E8C50063A617 /* Info.plist */,
+			);
+			path = HelloRustUITests;
+			sourceTree = "<group>";
+		};
+		48B862902327E9AF0063A617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B862912327E9B00063A617 /* librust.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B8625E2327E8C40063A617 /* HelloRust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B862872327E8C50063A617 /* Build configuration list for PBXNativeTarget "HelloRust" */;
+			buildPhases = (
+				48B8625B2327E8C40063A617 /* Sources */,
+				48B8625C2327E8C40063A617 /* Frameworks */,
+				48B8625D2327E8C40063A617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloRust;
+			productName = HelloRust;
+			productReference = 48B8625F2327E8C40063A617 /* HelloRust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B862722327E8C50063A617 /* HelloRustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B8628A2327E8C50063A617 /* Build configuration list for PBXNativeTarget "HelloRustTests" */;
+			buildPhases = (
+				48B8626F2327E8C50063A617 /* Sources */,
+				48B862702327E8C50063A617 /* Frameworks */,
+				48B862712327E8C50063A617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B862752327E8C50063A617 /* PBXTargetDependency */,
+			);
+			name = HelloRustTests;
+			productName = HelloRustTests;
+			productReference = 48B862732327E8C50063A617 /* HelloRustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48B8627D2327E8C50063A617 /* HelloRustUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B8628D2327E8C50063A617 /* Build configuration list for PBXNativeTarget "HelloRustUITests" */;
+			buildPhases = (
+				48B8627A2327E8C50063A617 /* Sources */,
+				48B8627B2327E8C50063A617 /* Frameworks */,
+				48B8627C2327E8C50063A617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B862802327E8C50063A617 /* PBXTargetDependency */,
+			);
+			name = HelloRustUITests;
+			productName = HelloRustUITests;
+			productReference = 48B8627E2327E8C50063A617 /* HelloRustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B862572327E8C40063A617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Brigette Valdez";
+				TargetAttributes = {
+					48B8625E2327E8C40063A617 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					48B862722327E8C50063A617 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 48B8625E2327E8C40063A617;
+					};
+					48B8627D2327E8C50063A617 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 48B8625E2327E8C40063A617;
+					};
+				};
+			};
+			buildConfigurationList = 48B8625A2327E8C40063A617 /* Build configuration list for PBXProject "HelloRust" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B862562327E8C40063A617;
+			productRefGroup = 48B862602327E8C40063A617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B8625E2327E8C40063A617 /* HelloRust */,
+				48B862722327E8C50063A617 /* HelloRustTests */,
+				48B8627D2327E8C50063A617 /* HelloRustUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B8625D2327E8C40063A617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B8626D2327E8C50063A617 /* LaunchScreen.storyboard in Resources */,
+				48B8626A2327E8C50063A617 /* Assets.xcassets in Resources */,
+				48B862682327E8C40063A617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B862712327E8C50063A617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B8627C2327E8C50063A617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B8625B2327E8C40063A617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B862652327E8C40063A617 /* ViewController.swift in Sources */,
+				48B862632327E8C40063A617 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B8626F2327E8C50063A617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B862782327E8C50063A617 /* HelloRustTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B8627A2327E8C50063A617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B862832327E8C50063A617 /* HelloRustUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48B862752327E8C50063A617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B8625E2327E8C40063A617 /* HelloRust */;
+			targetProxy = 48B862742327E8C50063A617 /* PBXContainerItemProxy */;
+		};
+		48B862802327E8C50063A617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B8625E2327E8C40063A617 /* HelloRust */;
+			targetProxy = 48B8627F2327E8C50063A617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48B862662327E8C40063A617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B862672327E8C40063A617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48B8626B2327E8C50063A617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B8626C2327E8C50063A617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48B862852327E8C50063A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48B862862327E8C50063A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B862882327E8C50063A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SJL86S8V5;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "/Users/brigettevaldez/Desktop/HelloWorld-rust/HelloRust/include";
+				INFOPLIST_FILE = HelloRust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/brigettevaldez/Desktop/HelloWorld-rust/HelloRust/libs";
+				PRODUCT_BUNDLE_IDENTIFIER = bvaldez.HelloRust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brigettevaldez/Desktop/HelloWorld-rust/HelloRust/include/rust.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B862892327E8C50063A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SJL86S8V5;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "/Users/brigettevaldez/Desktop/HelloWorld-rust/HelloRust/include";
+				INFOPLIST_FILE = HelloRust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/brigettevaldez/Desktop/HelloWorld-rust/HelloRust/libs";
+				PRODUCT_BUNDLE_IDENTIFIER = bvaldez.HelloRust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brigettevaldez/Desktop/HelloWorld-rust/HelloRust/include/rust.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48B8628B2327E8C50063A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SJL86S8V5;
+				INFOPLIST_FILE = HelloRustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bvaldez.HelloRustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloRust.app/HelloRust";
+			};
+			name = Debug;
+		};
+		48B8628C2327E8C50063A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SJL86S8V5;
+				INFOPLIST_FILE = HelloRustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bvaldez.HelloRustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloRust.app/HelloRust";
+			};
+			name = Release;
+		};
+		48B8628E2327E8C50063A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SJL86S8V5;
+				INFOPLIST_FILE = HelloRustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bvaldez.HelloRustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloRust;
+			};
+			name = Debug;
+		};
+		48B8628F2327E8C50063A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SJL86S8V5;
+				INFOPLIST_FILE = HelloRustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bvaldez.HelloRustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloRust;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B8625A2327E8C40063A617 /* Build configuration list for PBXProject "HelloRust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B862852327E8C50063A617 /* Debug */,
+				48B862862327E8C50063A617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B862872327E8C50063A617 /* Build configuration list for PBXNativeTarget "HelloRust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B862882327E8C50063A617 /* Debug */,
+				48B862892327E8C50063A617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B8628A2327E8C50063A617 /* Build configuration list for PBXNativeTarget "HelloRustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B8628B2327E8C50063A617 /* Debug */,
+				48B8628C2327E8C50063A617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B8628D2327E8C50063A617 /* Build configuration list for PBXNativeTarget "HelloRustUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B8628E2327E8C50063A617 /* Debug */,
+				48B8628F2327E8C50063A617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48B862572327E8C40063A617 /* Project object */;
+}
